@@ -21,9 +21,7 @@ services:
       - webnet
 
   api:
-    image: nginx:alpine
-    volumes:
-      - ./api/index.html:/usr/share/nginx/html/index.html:ro
+    build: ./api
     networks:
       - webnet
 
