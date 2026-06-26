@@ -3,7 +3,7 @@
 Ensure Docker is running
 
 ```
-docker compose up -d
+docker compose up --build -d
 ```
 
-Open <http://localhost:8080> (front end) and <http://localhost:8080/api> (API endpoint) in browser.
+Open <http://localhost:8080> (front end) and <http://localhost:8080/api/users> (API endpoint) in browser.
